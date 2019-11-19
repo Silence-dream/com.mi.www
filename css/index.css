@@ -59,7 +59,7 @@
 /* 中部导航栏开始 */
 .searhnav{
     height: 100px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .searchnav-logo{
@@ -85,11 +85,14 @@
     margin: 0 10px;
     font-size: 16px;
 }
-
+.searchnav-nav a:hover{
+    color: #ff6700;
+}
 /*  右边搜索栏*/
 
 
 .searchnav-search {
+    position: relative;
     float:right;
     box-sizing: border-box;
     width: 300px;
@@ -114,4 +117,15 @@
     width: 50px;
     height: 48px;
     background-color: #fff;
+}
+.sell-well{
+    position: absolute;
+    top: 18px;
+    right: 50px;
+    margin-right: 10px;
+}
+.sell-well a{
+    box-sizing: border-box;
+    padding: 2px 5px;
+    background-color: #eeeeee;
 }
