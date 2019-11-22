@@ -480,4 +480,180 @@ body {
 .price del {
     text-decoration: line-through;
     color: #b2b2b2;
+    margin-left: 5px;
+}
+
+/* 广告模块 */
+.ad {
+    margin: 22px 0;
+    width: 1226px;
+    height: 120px;
+}
+
+.ad img {
+    display: block;
+}
+
+
+/* 通用上部分模块 */
+.common-top {
+    height: 58px;
+    line-height: 58px;
+    /* background-color: pink; */
+}
+
+/* 通用下部分模块 */
+.common-bottom {
+    height: 614px;
+    /* background-color: hotpink; */
+}
+
+/* <!-- 手机模块 --> */
+
+.phone-top-left {
+    float: left;
+}
+
+.phone-top-left h2 {
+    font-size: 22px;
+    font-weight: 200;
+    color: #333;
+}
+
+.phone-top-right {
+    float: right;
+}
+
+
+.phone-top-right a {
+    font-size: 16px;
+    line-height: 58px;
+    color: #424242;
+    transition: all .4s;
+}
+
+.phone-top-right a span {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    background-color: #b0b0b0;
+    border-radius: 50%;
+    font-size: 22px;
+    vertical-align: top;
+    margin-left: 8px;
+    transition: all .4s;
+
+    /* .phone-top-right a span::before {
+    content: "";&#xe65e;
+    border-radius: 100%;
+    */
+}
+
+.phone-top-right a:hover {
+    color: #ff6700;
+
+}
+
+.phone-top-right a:hover span {
+    background-color: #ff6700;
+}
+
+/* <!-- 手机下部分 -->*/
+/* 左边的大图 */
+.phone-bottom-left {
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: all .4s;
+}
+
+.phone-bottom-left:hover {
+    top: -3;
+    left: 0;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+
+.phone-bottom-left a {
+    display: block;
+
+}
+
+
+.phone-bottom-left a img {
+    display: block;
+    width: 234px;
+    height: 614px;
+}
+
+
+
+
+/* 右边的手机展示 */
+.phone-bottom-right {
+    position: relative;
+    float: left;
+    width: calc(1226px - 234px);
+    height: 614px;
+    background-color: #f5f5f5;
+}
+
+
+
+.phone-bottom-right li {
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    width: 234px;
+    height: 300px;
+    background-color: #fff;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    transition: all .4s;
+}
+
+.phone-bottom-right li:hover {
+    top: -3;
+    left: 0;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+
+/* 通用信息展示设置 */
+.common-content {
+    margin-top: 40px;
+    /* border: 1px solid red; */
+    text-align: center;
+
+}
+
+.common-content img {
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.common-content h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+.common-desc {
+    height: 18px;
+    font-size: 12px;
+    color: #b0b0b0;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.common-price {
+    color: #ff6700;
+}
+
+.common-price del {
+    text-decoration: line-through;
+    color: #b0b0b0;
+    margin-left: 0.5em;
 }
