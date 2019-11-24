@@ -652,6 +652,7 @@ body {
     color: #ff6700;
 }
 
+/* 删除线 */
 .common-price del {
     text-decoration: line-through;
     color: #b0b0b0;
